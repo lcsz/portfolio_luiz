@@ -1,0 +1,153 @@
+
+body {
+    margin: 0px;
+}
+
+header {
+    /* background-color: #B85450; */
+    padding: 2%;
+    display: flow-root;
+    padding-top: 4%;
+    z-index: 2;
+    position: relative;
+}
+
+#caixaLogo, #caixaNavegacao {
+    /* background-color: #000000; */
+    height: 72px;
+    width: 30%;
+    color: black;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+#caixaLogo {    
+    float: left;
+    padding-left: 5%;
+    color: #FF6600
+}
+
+#caixaNavegacao {    
+    float: right;
+    text-align: right;
+    padding-right: 5%;
+    color: #474080;    
+}
+
+#caixaNavegacao span {
+    font-size: 2em;
+}
+
+#conteudoPrincipal {
+    /* background-color: #000000; */
+    padding: 1%;
+}
+
+#apresentacao {
+    background: linear-gradient(90deg, #474080 67%,  #FF6600  33%);
+    height: 500px;
+    width: 100%;
+    /* background-image: url(https://img.freepik.com/free-photo/blurred-waiting-room_1203-1254.jpg?t=st=1733183363~exp=1733186963~hmac=ec2f9de4f72296ce2e8640563f893bc926eea45d973b74beaa68fb80b80d3891&w=1800); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    right: 0px;
+    z-index: 0;
+    padding-top: 150px;
+}
+
+.metadaEsquerda {
+    /* background-color: blue; */
+    width: 46%;
+    height: 100%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.metadeDireita {
+    /* background-color: purple; */
+    width: 46%;
+    height: 100%;
+    float: right;
+    padding: 0% 2%;
+}
+
+.tituloSubtitulo {
+    /* background-color: aquamarine; */
+    width: 75%;
+    height: 60%;
+    margin-top: 0;
+    
+}
+
+.artigos {
+    /* background-color: green; */
+    width: 75%;
+    height: 32%;
+    padding: 0% 4%;
+    margin-top: 7%;
+}
+
+#fotoSelfie {
+    /* background-color: #826f6e; */
+    width: 60%;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#apresentacao .artigos .metadaEsquerda {
+    /* background-color: red; */
+}
+
+#apresentacao .metadaEsquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgSelfie {
+    width: 100%;
+    height: 100%;
+}
+
+
+.tituloApresentacao {
+    font-size: 4.5em;
+    margin-bottom: 0;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subTituloApresentacao {
+    font-size: 1.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.artigos p {
+    font-size: 0.9em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.tituloSubtitulo, .artigos {
+    color: #ff6600;
+    
+
+}
+
+.destacaTexto {
+    font-size: 1.5em;
+    color: brown;
+    font-weight: 300;
+}
