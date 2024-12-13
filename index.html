@@ -3,65 +3,75 @@
 
 <head>
     <title>Site do Luiz</title>
+    <meta charset="UTF-8">
     <meta name="author" content="Luiz" />
     <meta name="description" content="Este é o site do Luiz" />
 
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
+
     <header>
-        <h1 
-            id="tituloCabecalho"
-            class="tituloSite">
-        Esse é o Site do Luiz</h1>
-        <h2>Aqui você encontra meu portfolio</h2>
+        <div id="caixaLogo">LUIZ S JR</div>
+        <div id="caixaNavegacao">
+            <span class="material-icons">
+                menu
+            </span>
+        </div>
     </header>
 
     <main id="conteudoPrincipal">
-        <section id="sobreMim">
-            <div>
-                <p class="tituloSite">
-                    Sou o Luiz e sou programdor</p>
-                <img src="https://colegioelo.com.br/wp-content/uploads/2023/08/analise-e-desenvolvimento-de-sistemas.jpeg"
-                    width="200" alt="Luiz programador com computadores durante o trabalho" title="Luiz Programdor" />
+
+        <section id="apresentacao">
+
+            <div class="metadaEsquerda">
+
+                <div class="tituloSubtitulo">
+                    <h1 class="tituloApresentacao">FullStack Developer</h1>
+                    <h2 class="subTituloApresentacao">Sou <span class="destacaTexto">desenvolvedor</span> há muitos
+                        anos, mas eu gosto mesmo é de <span class="destacaTexto">café!</span> <span
+                            class="material-icons">
+                            coffee
+                        </span></h2>
+                </div>
+
+                <div class="artigos">
+                    <div class="metadaEsquerda">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac pulvinar ipsum. Duis
+                            finibus dui augue, non fringilla neque pharetra at.</p>
+                    </div>
+                    <div class="metadeDireita">
+                        <p>Pellentesque ac orci non eros egestas faucibus. Aliquam dignissim dolor commodo consectetur
+                            ultrices. Nunc tempus fermentum purus. In mi dui, scelerisque a fermentum ut, egestas sed
+                            purus.</p>
+                    </div>
+                </div>
+
             </div>
 
-            <div>
-                <p>Atuo com diversas linguagens <br /> e como fullstack.</p>
-                <ul>
-                    <details>
-                        <summary>Veja com detalhes as linguages</summary>
-                        <li>Python</li>
-                        <li>Javascript</li>
-                        <li>Dart</li>
-                        <li>Java</li>
-                        <li>...</li>
-                    </details>
-                </ul>
+            <div class="metadeDireita">
+                <div id="fotoSelfie">
+                    <img class="imgSelfie"
+                        src="https://colegioelo.com.br/wp-content/uploads/2023/08/analise-e-desenvolvimento-de-sistemas.jpeg">
+                </div>
             </div>
 
-            <div>
-                <ol>
-                    <details>
-                        <summary>Meus hobbies favoritos</summary>
-                        <li>Café</li>
-                        <li>Música</li>
-                        <li>Gatos</li>
-                    </details>
-                </ol>
-            </div>
         </section>
 
-        <section id="meusProjetos"></section>
-
-        <section id="contatos"></section>
     </main>
 
-    <footer>
-        <p>Este site tem todos os direitos reservados.</p>
-        <p>Desenvolvido por Luiz.</p>
-    </footer>
+
 </body>
 
 </html>
