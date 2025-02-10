@@ -1,0 +1,34 @@
+{
+    "usuario": [
+        {
+            "id": 1,
+            "name": "Luiz Jr",
+            "email": "luizjr@altb.co",
+            "password": "123456"
+        },
+        {
+            "id": 2,
+            "name": "Amanda Plonkoski",
+            "email": "amandap@altb.co",
+            "password": "123456"
+        },
+        {
+            "id": 3,
+            "name": "Ivan Silva",
+            "email": "ivans@altb.co",
+            "password": "123456"
+        },
+        {
+            "id": 4,
+            "name": "Nayla Silva",
+            "email": "naylas@altb.co",
+            "password": "123456"
+        },
+        {
+            "id": 5,
+            "name": "Victor Bressan",
+            "email": "victorb@altb.co",
+            "password": "123456"
+        }
+    ]
+}
