@@ -1,0 +1,11 @@
+.containerFormulario {
+    margin-top: 5%;
+}
+
+.divButton {
+    margin-top: 10%!important;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+}
