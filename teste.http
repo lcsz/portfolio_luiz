@@ -7,7 +7,7 @@ GET http://viacep.com.br/ws/04545042/json HTTP/1.1
 # Create   = POST
 # Retrieve = GET
 # Update   = PUT / PATCH
-# Delete   = DELETE
+ 
 
 
 
