@@ -1,0 +1,128 @@
+GET http://viacep.com.br/ws/04545042/json HTTP/1.1
+
+
+
+
+# CRUD
+# Create   = POST
+# Retrieve = GET
+# Update   = PUT / PATCH
+# Delete   = DELETE
+
+
+
+
+// Usado pra consulta dados 
+// SELECT * FROM USUARIO WHERE LOGIN = "luiz@alt.bank"
+GET https://my-json-server.typicode.com/lcsz/biblioteca/usuario/3 HTTP/1.1
+
+
+
+
+// Usado pra criar dados
+// INSERT FROM usuario (login, pwd, token, nome, perfil) 
+//   VALUES ('meulogin@altb.co', '123456', 'bWV1bG9naW5AYWx0Yi5jbzoxMjM0NTY=', ...);
+POST https://my-json-server.typicode.com/lcsz/biblioteca/usuario HTTP/1.1
+
+{
+    "login": "meulogin@altb.co",
+    "pwd": "123456",
+    "token": "bWV1bG9naW5AYWx0Yi5jbzoxMjM0NTY=",
+    "nome": "Meu Nome",
+    "perfil": "USUARIO"
+}
+
+
+
+// Usado pra alterar dados
+// UPDATE FROM usuario (login, pwd, token, nome, perfil) VALUES (NULL, NULL, 'John Bunnyan', NULL) WHERE ID = 3;
+PUT https://my-json-server.typicode.com/lcsz/biblioteca/usuario/3 HTTP/1.1
+Content-Type: application/json
+
+{    
+    "nome": "NOME ALTERADO"
+}
+
+
+// Usado pra editar, mas somente parte dos dados
+// UPDATE FROM usuario (nome) VALUES ('John Bunnyan') WHERE ID = 3;
+PATCH https://my-json-server.typicode.com/lcsz/biblioteca/usuario/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "John Bunnyan"
+}
+
+
+// Usado pra deletar dados
+// DELETE FROM usuario WHERE ID = 5;
+DELETE https://my-json-server.typicode.com/lcsz/biblioteca/usuario/5 HTTP/1.1
+Authorization: Basic bHVpejoxMjM0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GET https://my-json-server.typicode.com/lcsz/biblioteca/usuario?id=1 HTTP/1.1
+
+
+
+
+// SELECT * FROM USUARIO WHERE TOKEN = 'bHVpejphbHRfaGFja18xMjM0';
+GET https://my-json-server.typicode.com/lcsz/biblioteca/usuario?token=bHVpejphbHRfaGFja18xMjM0 HTTP/1.1
+
+GET https://my-json-server.typicode.com/lcsz/biblioteca/db HTTP/1.1
+
+GET https://my-json-server.typicode.com/lcsz/biblioteca/livros?id=1 HTTP/1.1
+
+
+// Usado pra criar dados
+// INSERT FROM LIVROS (TITULO, AUTOR, ANO, EDITORA, GENERO) VALUES ('O Senhor dos Anéis', 'J. R. R. Tolkien', 1954, 'Allen & Unwin', 'Fantasia');
+POST https://my-json-server.typicode.com/lcsz/biblioteca/livros HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "O Senhor dos Anéis",
+    "autor": "J. R. R. Tolkien",
+    "ano": 1954,
+    "editora": "Allen & Unwin",
+    "genero": "Fantasia"
+}
+
+
+// Usado pra alterar dados
+// UPDATE FROM LIVROS (NOME, AUTOR) VALUES ('O peregrino', 'John Bunnyan') WHERE ID = 1;
+PUT https://my-json-server.typicode.com/lcsz/biblioteca/livros/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nome": "O peregrino",
+    "autor": "John Bunnyan"
+}
+
+
+// Usado pra editar, mas somente parte dos dados
+// UPDATE FROM LIVROS (AUTOR) VALUES ('O peregrino', 'John Bunnyan') WHERE ID = 1;
+PATCH https://my-json-server.typicode.com/lcsz/biblioteca/livros/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "autor": "John Bunnyan"
+}
+
+
+// Usado pra deletar dados
+// DELETE FROM LIVROS WHERE ID = 1;
+DELETE https://my-json-server.typicode.com/lcsz/biblioteca/livros/1 HTTP/1.1
+Authorization: Basic bHVpejoxMjM0
+
