@@ -126,3 +126,20 @@ Content-Type: application/json
 DELETE https://my-json-server.typicode.com/lcsz/biblioteca/livros/1 HTTP/1.1
 Authorization: Basic bHVpejoxMjM0
 
+
+
+
+
+
+
+
+GET https://my-json-server.typicode.com/lcsz/portfolio_luiz/usuario?email=amaandap@altb.co HTTP/1.1
+
+
+POST https://my-json-server.typicode.com/lcsz/portfolio_luiz/usuario HTTP/1.1
+
+ {
+    "name": "Fred Fiuza",
+    "email": "amojs@altb.co",
+    "password": "123456"
+}

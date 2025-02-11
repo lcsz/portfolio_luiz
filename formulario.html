@@ -26,10 +26,15 @@
             <div class="card-body">
                 <form class="row g-3">
 
+                  <div class="col-md-12">
+                    <label class="form-label" for="inputNome">Digite o seu nome:</label>
+                    <input type="text" class="form-control" id="inputNome" maxlength="50">
+                  </div>
+
                   <div clas="col-md-12">
                     <label class="form-label" for="inputLogin">Digite o seu login (email):</label>
                     <input type="email" class="form-control" id="inputLogin" maxlength="50">
-                  </div>
+                  </div>                  
 
                   <div class="col-md-12">
                     <label class="form-label" for="inputPwd">Digite a sua senha:</label>
@@ -47,12 +52,19 @@
         </div>
     </div>
 
+    <div class="conainerListaUsuario">
+      <div class="listaUsuario"></div>
+        <ul id="listaUsuario" class="list-group">
+          
+        </ul>
+    </div>
+
     </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="./controller/blaah.js"></script> 
-    <script src="./controller/formularioController.js"></script> 
+    <script src="./helpers/restHelper.js"></script> 
+    <script src="./controllers/formularioController.js"></script> 
 
 
   </body>
