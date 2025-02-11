@@ -9,3 +9,7 @@
 .btn:disabled {
     cursor: not-allowed;
 }
+
+.listaUsuario {
+    margin-left: 15%;
+}
