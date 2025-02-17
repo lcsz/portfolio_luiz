@@ -30,5 +30,28 @@
             "email": "victorb@altb.co",
             "password": "123456"
         }
+    ],
+    "livros": [
+        {
+            "id": 1,
+            "nome": "O Peregrino",
+            "autor": "John Bunyan",
+            "editora": "Mundo Cristão",
+            "ano": 1678
+        },
+        {
+            "id": 2,
+            "nome": "Dom Casmarro",
+            "autor": "Machado de Assis",
+            "editora": "Globo",
+            "ano": 1899
+        },
+        {
+            "id": 3,
+            "nome": "O Peqeuno Príncipe",
+            "autor": "Antoine de Saint-Exupéry",
+            "editora": "Agir",
+            "ano": 1943
+        }
     ]
 }
