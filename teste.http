@@ -7,6 +7,7 @@ GET http://viacep.com.br/ws/04545042/json HTTP/1.1
 # Create   = POST
 # Retrieve = GET
 # Update   = PUT / PATCH
+# DElete   = DELETE
  
 
 
@@ -14,7 +15,7 @@ GET http://viacep.com.br/ws/04545042/json HTTP/1.1
 
 // Usado pra consulta dados 
 // SELECT * FROM USUARIO WHERE LOGIN = "luiz@alt.bank"
-GET https://my-json-server.typicode.com/lcsz/biblioteca/usuario/3 HTTP/1.1
+GET https://my-json-server.typicode.com/lcsz/biblioteca/usuario HTTP/1.1
 
 
 
@@ -123,7 +124,7 @@ Content-Type: application/json
 
 // Usado pra deletar dados
 // DELETE FROM LIVROS WHERE ID = 1;
-DELETE https://my-json-server.typicode.com/lcsz/biblioteca/livros/1 HTTP/1.1
+DELETE https://my-json-server.typicode.com/lcsz/portfolio_luiz/livros/1 HTTP/1.1
 Authorization: Basic bHVpejoxMjM0
 
 
